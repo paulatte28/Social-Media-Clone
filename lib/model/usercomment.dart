@@ -6,7 +6,7 @@ class Usercomment {
 
   Usercomment({
     required this.commenterImg,
-    required this.commenterName,        
+    required this.commenterName,
     required this.commenterTime,
     required this.commenterContent,
   });
