@@ -25,7 +25,7 @@ class Friendlist extends StatelessWidget {
     physics: const BouncingScrollPhysics(),
     gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
       crossAxisCount: 3,
-      mainAxisSpacing: 180,
+      mainAxisSpacing: 20,
     ),
     itemCount: userdata.friendList.length,
     itemBuilder: (BuildContext ctx, index){

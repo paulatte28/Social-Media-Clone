@@ -87,7 +87,7 @@ class _LoginFormState extends State<LoginForm> {
                   checkLogin(usernameController.text, passwordController.text);
                   if (!isError){
                     Navigator.push(context,
-                    MaterialPageRoute(builder: (context)=> SocialMedia()),
+                    MaterialPageRoute(builder: (context)=> Socialmedia()),
                     );
                   }
                 },
